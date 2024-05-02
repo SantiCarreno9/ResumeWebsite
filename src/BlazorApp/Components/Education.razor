@@ -1,0 +1,23 @@
+<section>
+    <h2>EDUCATION</h2>
+    <br>
+    @foreach (var item in Items)
+    {
+        <h3>@item.Title</h3>
+        <h4>@item.InstitutionName</h4>
+        <h4>@(GetDates(item))</h4>
+        <br>
+    }
+</section>
+
+@code {
+    [Parameter]
+    public List<EducationItem> Items { get; set; } = new();
+    
+    private string GetDates(EducationItem item)
+    {
+        string startDate = item.StartDate.Year.ToString();
+        string endDate = item.EndDate != null ? $"{item.EndDate.Value.Year}" : "Present";
+        return startDate + " - " + endDate;
+    }
+}

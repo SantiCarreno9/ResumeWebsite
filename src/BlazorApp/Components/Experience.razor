@@ -1,0 +1,28 @@
+<section>
+    <h2>EXPERIENCE</h2>
+    <br>
+    @foreach (var item in Items)
+    {
+        <h3>@item.Title</h3>
+        <h4>@item.CompanyName</h4>
+        <h4>@(GetDates(item))</h4>
+        <ul>
+            @foreach (var responsibility in item.Responsibilities)
+            {
+                <li>@responsibility</li>
+            }
+        </ul>
+    }
+</section>
+
+@code {
+    [Parameter]
+    public List<ExperienceItem> Items { get; set; } = new();
+
+    private string GetDates(ExperienceItem item)
+    {
+        string startDate = item.StartDate.Year.ToString();
+        string endDate = item.EndDate != null ? $"{item.EndDate.Value.Year}" : "Present";
+        return startDate + " - " + endDate;
+    }
+}

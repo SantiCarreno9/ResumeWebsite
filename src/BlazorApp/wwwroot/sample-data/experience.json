@@ -1,0 +1,38 @@
+[
+  {
+    "title": "VR Unity Developer",
+    "companyName": "Somnium Space",
+    "location": "Prague, Czech Republic",
+    "startDate": "2022-08-15T00:00:00",
+    "endDate": "2023-09-01T00:00:00",
+    "responsibilities": [
+      "Implemented a social networking system that allows users to add friends, block other users, create chat conversations, and initiate video calls.",
+      "Implemented responsive user interface with animations, transitions, and interactive elements to enhance the user experience and engagement.",
+      "Established continuous communication with the back end to enable real-time responses."
+    ]
+  },
+  {
+    "title": "Unity Developer",
+    "companyName": "Consultoria GP S.A.S",
+    "location": "Medellín, Colombia",
+    "startDate": "2021-11-01T00:00:00",
+    "endDate": "2022-08-12T00:00:00",
+    "responsibilities": [
+      "Renewed and improved the user interface by optimizing and organizing the visual resources and implementing newer tools such as UI Toolkit.",
+      "Integrated services AI-related from Azure such as STT and TTS.",
+      "Led version control efforts for organization employing Git."
+    ]
+  },
+  {
+    "title": "VR Developer",
+    "companyName": "MPL eLearning XR Services",
+    "location": "Bogotá, Colombia",
+    "startDate": "2021-01-02T00:00:00",
+    "endDate": "2021-08-01T00:00:00",
+    "responsibilities": [
+      "Created 3D models of equipment, machinery and interior spaces in Blender by using photos and videos as reference.",
+      "Developed interactive VR simulators in Unity for employee training.",
+      "Created libraries to facilitate the process of creating virtual reality (VR) applications."
+    ]
+  }
+]

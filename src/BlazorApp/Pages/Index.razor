@@ -1,11 +1,112 @@
 @page "/"
 @inject HttpClient Http
-@inject HeroImageService HeroImageService
 
-<PageTitle>Portfolio</PageTitle>
+<PageTitle>Resume</PageTitle>
+@if (basicInfo == null)
+    return;
 
-<Header />
-<Home Http=@Http HeroImageService=@HeroImageService />
-<About Http=@Http HeroImageService=@HeroImageService />
-<Portfolio Http=@Http HeroImageService=@HeroImageService />
-<Footer Http=@Http PrimaryColor="#4E567E" SecondaryColor="#D2F1E4" />
+<header id="header">
+    <!-- resume header with your name and title -->
+    <h1>@basicInfo.Name</h1>
+    <hr>
+    <h2>@basicInfo.Title</h2>
+    <hr>
+</header>
+<main>
+    <article id="mainLeft">
+        <section>
+            <h2>CONTACT</h2>
+            <br>
+            <!-- PHONE NUMBER -->
+            <p>
+                <i class="fas fa-phone" aria-hidden="true"></i>
+                @basicInfo.PhoneNumber
+            </p>
+            <!-- EMAIL -->
+            <p>
+                <a href="mailto:@basicInfo.Email" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    @basicInfo.Email
+                </a>
+            </p>
+            <!-- LINKEDIN -->
+            <p>
+                <a href="@basicInfo.LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    @basicInfo.Name
+                </a>
+            </p>
+            <!-- GITHUB -->
+            @if (basicInfo.GitHub != null)
+            {
+                <p>
+                    <a href="https://github.com/@basicInfo.GitHub" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        @basicInfo.GitHub
+                    </a>
+                </p>
+            }
+            <!-- PORTFOLIO -->
+            @if (basicInfo.Portfolio != null)
+            {
+                <p>
+                    <a href="@basicInfo.Portfolio" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-dev" aria-hidden="true"></i>
+                        Portfolio
+                    </a>
+                </p>
+            }
+
+        </section>
+        <section>
+            @if (basicInfo.Skills != null)
+            {
+                <h2>SKILLS</h2>
+                <ul>
+                    @foreach (var skill in basicInfo.Skills)
+                    {
+                        <li>@skill</li>
+                    }
+                </ul>
+            }
+        </section>
+        @if (educationItems != null)
+        {
+            <Education Items="educationItems" />
+        }
+        <!-- OPTIONAL -->
+        <section>
+            <h2>ACHIEVEMENTS</h2>
+            <br>
+            <a href="https://ieeexplore.ieee.org/document/9419164" target="_blank" rel="noopener noreferrer">IEEE Paper publication</a>
+        </section>
+    </article>
+    <article id="mainRight">
+        <section>
+            @if (!string.IsNullOrEmpty(basicInfo.Description))
+            {
+                <h2>ABOUT</h2>
+                <!-- about you -->
+                <p>@basicInfo.Description</p>
+            }
+        </section>
+        @if (experienceItems != null)
+        {
+            <Experience Items="experienceItems" />
+        }
+    </article>
+</main>
+
+
+@code {
+    private BasicInfo? basicInfo;
+    private List<ExperienceItem>? experienceItems;
+    private List<EducationItem>? educationItems;
+
+    protected override async Task OnInitializedAsync()
+    {
+        basicInfo = await Http.GetFromJsonAsync<BasicInfo>("sample-data/basicInfo.json");
+        experienceItems = await Http.GetFromJsonAsync<List<ExperienceItem>>("sample-data/experience.json");
+        educationItems = await Http.GetFromJsonAsync<List<EducationItem>>("sample-data/education.json");
+    }
+}
