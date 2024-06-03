@@ -1,5 +1,5 @@
 <section>
-    <h2>EXPERIENCE</h2>
+    <h2>@Title</h2>
     <br>
     @foreach (var item in Items)
     {
@@ -16,6 +16,9 @@
 </section>
 
 @code {
+    [Parameter]
+    public string Title { get; set; }
+
     [Parameter]
     public List<ExperienceItem> Items { get; set; } = new();
 

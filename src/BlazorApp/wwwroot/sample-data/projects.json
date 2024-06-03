@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Resume Builder Website",
+    "companyName": "Personal Project",
+    "location": "Toronto, Canada",
+    "startDate": "2024-05-01T00:00:00",
+    "endDate": "2024-06-01T00:00:00",
+    "responsibilities": [
+      "Developed a web application using ASP.NET Model-View-Controller (MVC) framework, Entity Framework (EF) for data access, and SQL Server as the relational database to ensure efficient data management and retrieval.",
+      "Designed and implemented a custom authorization and authentication system, providing secure user access and protecting sensitive information.",
+      "Implemented comprehensive user profile management features, allowing users to create, update, and delete their resumes efficiently, with an intuitive and user-friendly interface."
+    ]
+  },
+  {
+    "title": "Portfolio Website",
+    "companyName": "Personal Project",
+    "location": "Toronto, Canada",
+    "startDate": "2024-05-01T00:00:00",
+    "endDate": "2024-06-01T00:00:00",
+    "responsibilities": [
+      "Developed a dynamic website using .NET Blazor WebAssembly, efficiently retrieving and displaying information from structured JSON files to ensure a seamless user experience.",
+      "Created a comprehensive Razor Class Library featuring reusable UI components with HTML, CSS, and JavaScript, and integrated it into the project as a Git submodule for easy management and updates.",
+      "Deployed the website to GitHub Pages using automated GitHub Actions, ensuring a smooth and continuous deployment process with minimal manual intervention."
+    ]
+  }  
+]

@@ -1,11 +1,16 @@
 {
   "name": "Santiago Carreno",
-  "title": "Game Programmer",
+  "title": "C# Developer",
   "description": "",
   "skills": [
     "C#",
-    "Unity",
+    ".NET",
+    "Entity Framework",
+    "SQL Server",
+    "REST",
     "Git",
+    "MVC",
+    "SOLID",
     "Problem solving",
     "Teamwork"
   ],
@@ -13,5 +18,5 @@
   "email": "santiago.carreno05@gmail.com",
   "linkedIn": "http://www.linkedin.com/in/santiago-felipe-carreno-pardo",
   "github": "SantiCarreno9",
-  "portfolio": "https://santiago-carreno-webportfolio.onrender.com/"
+  "portfolio": "https://santicarreno9.github.io/PortfolioWebsite/"
 }

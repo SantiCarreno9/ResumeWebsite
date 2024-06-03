@@ -6,10 +6,8 @@
 
 html,
 body {
-    /*margin: 0 auto;*/
-    /*margin: 2.54cm 2.54cm 2.54cm 2.54cm;*/
-    /*height: 100%;*/
     font-family: "Montserrat", sans-serif;
+    font-size:1rem;
 }
 
 main {
@@ -36,8 +34,7 @@ header {
 }
 
 h1 {
-    font-weight: 300;
-    /*font-family: "Cormorant Garamond", serif;*/
+    font-weight: 300;    
     font-size: 3rem;
     text-align: center;
     margin: 0;

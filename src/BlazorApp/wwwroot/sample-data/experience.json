@@ -1,25 +1,27 @@
 [
   {
-    "title": "VR Unity Developer",
+    "title": "VR C# Developer",
     "companyName": "Somnium Space",
     "location": "Prague, Czech Republic",
     "startDate": "2022-08-15T00:00:00",
     "endDate": "2023-09-01T00:00:00",
     "responsibilities": [
-      "Implemented a social networking system that allows users to add friends, block other users, create chat conversations, and initiate video calls.",
-      "Implemented responsive user interface with animations, transitions, and interactive elements to enhance the user experience and engagement.",
-      "Established continuous communication with the back end to enable real-time responses."
+      "Implemented a social networking system enabling users to add friends, block others, and engage in chat conversations.",
+      "Maintained continuous back-end communication via SignalR and asynchronously consumed multiple APIs through REST architecture to ensure a smooth user experience.",
+      "Developed a custom web browser featuring navigation history, bookmarks, and a tab system, integrating a third-party library for content rendering."
     ]
   },
   {
-    "title": "Unity Developer",
+    "title": "Unity C# Developer",
     "companyName": "Consultoria GP S.A.S",
     "location": "Medellín, Colombia",
     "startDate": "2021-11-01T00:00:00",
     "endDate": "2022-08-12T00:00:00",
     "responsibilities": [
-      "Renewed and improved the user interface by optimizing and organizing the visual resources and implementing newer tools such as UI Toolkit.",
-      "Integrated services AI-related from Azure such as STT and TTS.",
+      "Implemented WebSockets for continuous back-end communication.",
+      "Integrated Azure AI services like Speech-to-Text and Text-to-Speech for real-time virtual assistant interactions using Microsoft's SDK.",
+      "Applied Simple Clean Architecture and Dependency Injection (DI) to achieve low coupling and high cohesion.",
+      "Facilitated communication between a WebGL app and the browser using C# and JavaScript.",
       "Led version control efforts for organization employing Git."
     ]
   },
@@ -30,9 +32,9 @@
     "startDate": "2021-01-02T00:00:00",
     "endDate": "2021-08-01T00:00:00",
     "responsibilities": [
-      "Created 3D models of equipment, machinery and interior spaces in Blender by using photos and videos as reference.",
-      "Developed interactive VR simulators in Unity for employee training.",
-      "Created libraries to facilitate the process of creating virtual reality (VR) applications."
+      "Developed C# libraries to streamline and expedite the creation of virtual reality (VR) applications.",
+      "Created editor tools with C# to automate file management processes.",
+      "Contributed to the company’s SDK for VR glasses, enabling app downloads linked to user accounts from the server."
     ]
   }
 ]
