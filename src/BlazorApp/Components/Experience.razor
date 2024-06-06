@@ -9,7 +9,7 @@
         <ul>
             @foreach (var responsibility in item.Responsibilities)
             {
-                <li>@responsibility</li>
+                <li>@((MarkupString)responsibility)</li>
             }
         </ul>
     }
