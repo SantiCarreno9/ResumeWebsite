@@ -92,7 +92,11 @@
         </section>
         @if (experienceItems != null)
         {
-            <Experience Items="experienceItems" />
+            <Experience Title="EXPERIENCE" Items="experienceItems" />
+        }
+        @if (projectItems != null)
+        {
+            <Experience Title="PROJECTS" Items="@projectItems" />
         }
         @* @if (projectItems != null)
         {
@@ -103,14 +107,18 @@
 
 
 @code {
+    [Parameter]
+    public string path { get; set; } = "sample-data/";
     private BasicInfo? basicInfo;
     private List<ExperienceItem>? experienceItems;
-    private List<EducationItem>? educationItems;
+    private List<ExperienceItem>? projectItems;
+    private List<EducationItem>? educationItems;    
 
     protected override async Task OnInitializedAsync()
     {
-        basicInfo = await Http.GetFromJsonAsync<BasicInfo>("sample-data/basicInfo.json");
-        experienceItems = await Http.GetFromJsonAsync<List<ExperienceItem>>("sample-data/experience.json");
-        educationItems = await Http.GetFromJsonAsync<List<EducationItem>>("sample-data/education.json");
+        basicInfo = await Http.GetFromJsonAsync<BasicInfo>(path + "basicInfo.json");
+        experienceItems = await Http.GetFromJsonAsync<List<ExperienceItem>>(path + "experience.json");
+        projectItems = await Http.GetFromJsonAsync<List<ExperienceItem>>(path + "projects.json");
+        educationItems = await Http.GetFromJsonAsync<List<EducationItem>>(path + "education.json");
     }
 }
