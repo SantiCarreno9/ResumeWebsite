@@ -16,8 +16,8 @@
     
     private string GetDates(EducationItem item)
     {
-        string startDate = item.StartDate.Year.ToString();
-        string endDate = item.EndDate != null ? $"{item.EndDate.Value.Year}" : "Present";
+        string startDate = item.StartDate.ToString("MMM yyyy");
+        string endDate = item.EndDate != null ? $"{item.EndDate.Value.ToString("MMM yyyy")}" : "Present";
         return startDate + " - " + endDate;
     }
 }

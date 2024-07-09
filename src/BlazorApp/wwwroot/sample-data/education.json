@@ -1,19 +1,23 @@
 [
   {
-    "title": "Game Programming",
-    "institutionName": "Centennial College",
-    "location": "Toronto, Ontario, Canada",
-    "startDate": "2023-09-05T00:00:00",    
-    "achievements": []
+    "title": "Tax Update Diploma",
+    "institutionName": "Corporación Universitaria Minuto de Dios",
+    "location": "Bogotá, Colombia",
+    "startDate": "2023-01-01T00:00:00",
+    "endDate": "2023-05-01T00:00:00"
   },
   {
-    "title": "Bachelor of Mechatronics Engineering",
-    "institutionName": "Universidad Militar Nueva Granada",
+    "title": "Bachelor of Accounting",
+    "institutionName": "Corporación Universitaria Minuto de Dios",
+    "location": "Bogotá, Colombia",
+    "startDate": "2020-01-01T00:00:00",
+    "endDate": "2020-04-30T00:00:00"
+  },
+  {
+    "title": "Accounting Technician",
+    "institutionName": "SENA",
     "location": "Bogotá, Colombia",
     "startDate": "2015-01-01T00:00:00",
-    "endDate": "2021-03-25T00:00:00",
-    "achievements": [
-      "Designed and developed a networked interactive prototype for Lipoma Extraction Surgery Simulation using Unity and C#."
-    ]
-  }
+    "endDate": "2016-12-31T00:00:00"
+  }  
 ]

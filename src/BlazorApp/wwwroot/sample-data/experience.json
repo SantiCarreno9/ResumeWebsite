@@ -1,40 +1,56 @@
 [
   {
-    "title": "VR C# Developer",
-    "companyName": "Somnium Space",
-    "location": "Prague, Czech Republic",
-    "startDate": "2022-08-15T00:00:00",
-    "endDate": "2023-09-01T00:00:00",
-    "responsibilities": [
-      "Implemented a social networking system enabling users to add friends, block others, and engage in chat conversations.",
-      "Maintained continuous back-end communication via SignalR and asynchronously consumed multiple APIs through REST architecture to ensure a smooth user experience.",
-      "Developed a custom web browser featuring navigation history, bookmarks, and a tab system, integrating a third-party library for content rendering."
-    ]
-  },
-  {
-    "title": "Unity C# Developer",
-    "companyName": "Consultoria GP S.A.S",
-    "location": "Medellín, Colombia",
-    "startDate": "2021-11-01T00:00:00",
-    "endDate": "2022-08-12T00:00:00",
-    "responsibilities": [
-      "Implemented WebSockets for continuous back-end communication.",
-      "Integrated Azure AI services like Speech-to-Text and Text-to-Speech for real-time virtual assistant interactions using Microsoft's SDK.",
-      "Applied Simple Clean Architecture and Dependency Injection (DI) to achieve low coupling and high cohesion.",
-      "Facilitated communication between a WebGL app and the browser using C# and JavaScript.",
-      "Led version control efforts for organization employing Git."
-    ]
-  },
-  {
-    "title": "VR Developer",
-    "companyName": "MPL eLearning XR Services",
+    "title": "Staff accountant",
+    "companyName": "KPMG ADVISORY, TAX & LEGAL SAS",
     "location": "Bogotá, Colombia",
-    "startDate": "2021-01-02T00:00:00",
-    "endDate": "2021-08-01T00:00:00",
+    "startDate": "2019-08-01T00:00:00",
+    "endDate": "2023-08-15T00:00:00",
     "responsibilities": [
-      "Developed C# libraries to streamline and expedite the creation of virtual reality (VR) applications.",
-      "Created editor tools with C# to automate file management processes.",
-      "Contributed to the company’s SDK for VR glasses, enabling app downloads linked to user accounts from the server."
+      "Analysis of balance sheet and income statement accounts to generate adjustment proposals in reconciliations of local and corporate balances.",
+      "Organization of closing information, support in the preparation of Financial Statements, generation of reports to be presented to the SUNAT (Peru), and presentation of SUNAT electronic book information (Peru).",
+      "Recording of accounting vouchers, analysis of accounts receivable and accounts payable, bank reconciliation.",
+      "Review of monthly and bi-weekly payroll along with the information submitted to regulatory authorities.",
+      "Review of information between local accounts and US GAAP accounts.",
+      "Preparation of reports requested by the client and the company."
+    ]
+  },
+  {
+    "title": "Accounting Assistant",
+    "companyName": "TEMPLOS FUNERARIOS LA PAZ LTDA",
+    "location": "Bogotá, Colombia",
+    "startDate": "2019-01-01T00:00:00",
+    "endDate": "2019-08-31T00:00:00",
+    "responsibilities": [
+      "Analyzed accounts receivable and payable, bank reconciliation.",
+      "Prepared reports requested by the client and the company.",
+      "Review of payroll, petty cash reimbursements, preparation of sales invoices, cost control of branches.",
+      "Review of information required by the UGPP (Colombia)."      
+    ]
+  },
+  {
+    "title": "Accounting Clerk",
+    "companyName": "CDQ USANAR LTDA",
+    "location": "Bogotá, Colombia",
+    "startDate": "2018-07-01T00:00:00",
+    "endDate": "2018-12-31T00:00:00",
+    "responsibilities": [
+      "Calculate, prepare and issue documents related to accounts such as bills, invoices, inventory reports, account statements and other financial statements using computerized and manual systems.",
+      "Calculate costs of materials, overhead and other expenses based on estimates, quotations, and price lists.",
+      "Perform related clerical duties, such as word processing, maintaining filing and record systems, faxing and photocopying."
+    ]
+  },
+  {
+    "title": "Accounting Assistant",
+    "companyName": "MOORE STEPHENS ADVISORS SAS",
+    "location": "Bogotá, Colombia",
+    "startDate": "2017-07-01T00:00:00",
+    "endDate": "2018-07-01T00:00:00",
+    "responsibilities": [
+      "Calculate, prepare and issue documents related to accounts such as bills, invoices, inventory reports, account statements and other financial statements using computerized and manual systems.",
+      "Code, total, batch, enter, verify and reconcile transactions such as accounts payable and receivable, payroll, purchase orders, cheques, invoices, cheque requisitions, and bank statements in a ledger or computer system.",
+      "Prepare period or cost statements or reports.",
+      "Respond to customer inquiries, maintain good customer relations and solve problems.",
+      "Perform related clerical duties, such as word processing, maintaining filing and record systems, faxing and photocopying."
     ]
   }
 ]
