@@ -7,17 +7,18 @@
 html,
 body {
     font-family: "Montserrat", sans-serif;
-    font-size:1rem;
+    font-size:0.8rem;
 }
 
 main {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 32% 68%;
     margin: 1em;
 }
 
 #mainLeft {
     border-right: 1px solid lightgray;
+    height:200vh;
     padding-right: 2em;
 }
 

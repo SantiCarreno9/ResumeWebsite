@@ -89,26 +89,22 @@
                 <!-- about you -->
                 <p>@basicInfo.Description</p>
             }
-        </section>
+        </section>        
         @if (experienceItems != null)
         {
             <Experience Title="EXPERIENCE" Items="experienceItems" />
-        }
+        }        
         @if (projectItems != null)
         {
             <Experience Title="PROJECTS" Items="@projectItems" />
         }
-        @* @if (projectItems != null)
-        {
-            <Experience Title="PROJECTS" Items="@projectItems" />
-        } *@
     </article>
 </main>
 
 
 @code {
     [Parameter]
-    public string path { get; set; } = "sample-data/";
+    public string path { get; set; } = "sample-data/CS-Dev/";
     private BasicInfo? basicInfo;
     private List<ExperienceItem>? experienceItems;
     private List<ExperienceItem>? projectItems;

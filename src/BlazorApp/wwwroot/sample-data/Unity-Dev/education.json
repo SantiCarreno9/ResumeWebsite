@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Game Programming",
+    "institutionName": "Centennial College",
+    "location": "Toronto, Ontario, Canada",
+    "startDate": "2023-09-05T00:00:00",    
+    "achievements": []
+  },
+  {
+    "title": "Bachelor of Mechatronics Engineering",
+    "institutionName": "Universidad Militar Nueva Granada",
+    "location": "Bogotá, Colombia",
+    "startDate": "2015-01-01T00:00:00",
+    "endDate": "2021-03-25T00:00:00",
+    "achievements": [
+      "Designed and developed a networked interactive prototype for Lipoma Extraction Surgery Simulation using Unity and C#."
+    ]
+  }
+]
