@@ -89,15 +89,15 @@
                 <!-- about you -->
                 <p>@basicInfo.Description</p>
             }
-        </section>        
-        @if (experienceItems != null)
-        {
-            <Experience Title="EXPERIENCE" Items="experienceItems" />
-        }        
+        </section> 
         @if (projectItems != null)
         {
             <Experience Title="PROJECTS" Items="@projectItems" />
         }
+        @if (experienceItems != null)
+        {
+            <Experience Title="EXPERIENCE" Items="experienceItems" />
+        }                
     </article>
 </main>
 
